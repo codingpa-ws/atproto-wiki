@@ -12,18 +12,36 @@
   "dependencies": {
     "@atproto/jwk-jose": "^0.1.2",
     "@atproto/oauth-client-node": "^0.1.4",
+    "@expo/spawn-async": "^1.7.2",
     "@fontsource-variable/public-sans": "^5.1.1",
     "@libsql/client": "^0.14.0",
+    "@milkdown/core": "^7.5.0",
+    "@milkdown/crepe": "^7.5.7",
+    "diff2html": "^3.4.48",
     "drizzle-orm": "^0.34.1",
     "glob": "^11.0.0",
     "nuxt": "^3.11.0",
+    "rehype-sanitize": "^6.0.0",
+    "rehype-stringify": "^10.0.1",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.1",
+    "unified": "^11.0.5",
+    "vfile-matter": "^5.0.0",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
     "autoprefixer": "^10.4.20",
     "drizzle-kit": "^0.25.0",
     "postcss": "^8.4.47",
+    "sass-embedded": "^1.79.5",
     "tailwindcss": "^3.4.13"
+  },
+  "resolutions": {
+    "string-width": "4.2.3",
+    "jackspeak": "2.1.1"
   }
 }

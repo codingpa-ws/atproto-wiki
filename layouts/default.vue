@@ -7,11 +7,17 @@ async function logout() {
     window.location.href = "/";
   }
 }
+
+useSeoMeta({
+  title: "ATProto Wiki",
+});
 </script>
 
 <template>
   <nav class="py-2 px-2 flex items-center mb-4">
-    <h1 class="text-2xl font-bold">ATProto.wiki</h1>
+    <h1 class="text-2xl font-bold">
+      <nuxt-link href="/">ATProto.wiki</nuxt-link>
+    </h1>
 
     <div class="ml-auto" v-if="!$route.fullPath.startsWith('/login')">
       <div v-if="user" class="flex items-center gap-2">

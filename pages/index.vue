@@ -1,8 +1,5 @@
-<script setup lang="ts">
-const pages = await useAPI("/api/pages");
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <h2 class="text-xl font-bold">All pages</h2>
-  <pre>{{ pages }}</pre>
+  <core-page path="home" />
 </template>

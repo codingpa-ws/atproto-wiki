@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-10-13",
   devtools: { enabled: false },
-  css: ["~/assets/css/main.css"],
+  css: ["~/assets/css/main.scss"],
   debug: false,
 
   postcss: {
